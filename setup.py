@@ -7,9 +7,9 @@ setup(
     author='Michael Nolan',
     author_email='celegans25@gmail.com',
     install_requires = ['requests'],
-    # entry_points={
-    #     'console_scripts': [
-    #         'stream_archive_subtitle = stream_archive_subtitle.stream_archive_subtitle:main'
-    #     ]
-    # },
+    entry_points={
+        'console_scripts': [
+            'download_tl = mchatx_python.download_tl:main'
+        ]
+    },
 )

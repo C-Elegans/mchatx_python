@@ -1,5 +1,5 @@
 import argparse
-import api
+import mchatx_python.api as api
 import json
 from functools import partial
 
